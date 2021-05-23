@@ -1,6 +1,7 @@
 $color-primary: hsl(0, 0%, 10%);
 $color-text: hsl(0, 0%, 20%);
 $color-subtext: hsl(0, 0%, 30%);
+$color-link: #0076d1;
 $color-border: hsl(0, 0%, 85%);
 $color-box-background: mix($color-primary, white, 4%);
 $border-radius: 4px;
@@ -16,7 +17,7 @@ body {
   overflow-x: hidden;
   color: $color-text;
   font-size: 1rem;
-  max-width: 63em;
+  max-width: 50rem;
 
   @media (min-width: 820px) {
     font-size: 1.2rem;
@@ -80,7 +81,7 @@ a {
   padding: 0 0.1em;
   text-decoration: none;
   border-bottom: 1px solid $color-border;
-  color: $color-primary;
+  color: $color-link;
   &:hover {
     color: black !important;
     background: #fffaf1;
@@ -144,3 +145,40 @@ code {
   color: #ccc;
   cursor: help;
 }
+
+
+
+// Custom
+
+nav > ul {
+	padding: 0rem;
+	padding-left: 1.5rem;
+	margin-top: 0.5rem;
+}
+
+nav > ul > li {
+	display: inline-block;
+	padding-right: 0.5rem;
+}
+
+nav > ul > li > a {
+	text-decoration: none;
+}
+
+.list-entry {
+	margin: 1em 0 1.25em;
+}
+
+.faded {
+  opacity: 0.6;
+}
+
+.post-heading {
+  margin: 3em 0 2em;
+}
+
+.post > p:last-of-type {
+  padding-bottom: 1em;
+  border-bottom: 5px solid #f0f0f0;
+}
+

@@ -182,3 +182,41 @@ nav > ul > li > a {
   border-bottom: 5px solid #f0f0f0;
 }
 
+table {
+  border-collapse: collapse;
+  margin-bottom: 10px;
+  width: 100%;
+  table-layout: fixed;
+}
+
+table caption {
+  text-align: left;
+}
+
+td,
+th {
+  padding: 6px;
+  text-align: left;
+  vertical-align: top;
+  word-wrap: break-word;
+}
+
+thead {
+  border-bottom: 1px solid #dbdbdb;
+}
+
+tfoot {
+  border-top: 1px solid #dbdbdb;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #efefef;
+}
+
+tbody tr:nth-child(even) button {
+  background-color: #f7f7f7;
+}
+
+tbody tr:nth-child(even) button:hover {
+  background-color: #fff;
+}

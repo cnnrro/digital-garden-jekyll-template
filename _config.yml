@@ -14,7 +14,6 @@ use_html_extension:  false
 # set to `false` to open non-internal links in current tab.
 open_external_links_in_new_tab: true
 
-permalink:           /blog/:slug
 relative_permalinks: false
 
 plugins:
@@ -25,17 +24,34 @@ sass:
   sass_dir:          _sass
   style:            :compressed
 
+collections_dir: collections
 collections:
+  posts:
+    output: true
+    permalink: /blog/:slug
+  newsletters:
+    output: true
+    permalink: /newsletter/:slug
   notes:
     output: true
-    permalink: /:slug
+    permalink: /notes/:slug
 
 defaults:
   - scope:
-      path: "**/*"
+      path: ""
     values:
       layout: "default"
   - scope:
-      path: "_notes/**/*.md"
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "newsletters"
+    values:
+      layout: "post"
+  - scope:
+      type: "notes"
     values:
       layout: "note"

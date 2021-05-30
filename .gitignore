@@ -16,3 +16,7 @@ _includes/notes_graph.json
 
 # Direnv cache
 .direnv/
+
+# Rough outlines and drafts
+_rough-notes/
+_drafts/

@@ -6,7 +6,7 @@ permalink: /
 ---
 
 <p style="padding: 1.5rem 1.5rem; background: #f5f7ff; border-radius: 1rem;">
-Subscribe to my newsletter: <a href="https://tinyletter.com/connorjrobbins">Tiny Letters.</a>
+Subscribe to <a href="https://cjr.eo.page/tfvy3">my newsletter.</a>
 </p>
 
 # How do you want to live?

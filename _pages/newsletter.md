@@ -4,9 +4,9 @@ title: Newsletter
 permalink: /newsletter
 ---
 
-# ✉️ Tiny Letters
+# ✉️ Newsletter
 
-[Subscribe to my newsletter](https://tinyletter.com/connorjrobbins) for twice monthly musings and updates.
+[Subscribe to my newsletter](https://cjr.eo.page/tfvy3) for twice monthly musings and updates.
 
 ## 📪 Previous editions
 

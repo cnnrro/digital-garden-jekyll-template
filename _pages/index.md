@@ -23,7 +23,7 @@ I want to spend every day learning. And I want to share those experiences here.
 
 If any of this sounds interesting, check out [my blog](/blog){: .internal-link} or find me on [twitter](https://twitter.com/connorjrobbins).
 
-If you want a little more I have a [newsletter](https://tinyletter.com/connorjrobbins) that's sent out every other Sunday. (You can also read the [newsletter archive](https://tinyletter.com/connorjrobbins/archive) if you're interested.)
+If you want a little more I have a [newsletter](https://www.connorjrobbins.com/newsletter){: .internal-link} that's sent out every other Sunday. (You can also read the [newsletter archive](https://www.connorjrobbins.com/newsletter){: .internal-link} if you're interested.)
 
 <style>
   .wrapper {

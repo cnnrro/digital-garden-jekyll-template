@@ -86,17 +86,16 @@ a {
     color: black !important;
     background: #fffaf1;
   }
+
+}
+
+a[rel=external] {
   &:after {
     position: relative;
-    top: -0.5em;
+    top: -0.5rem;
     font-size: 0.7em;
-    content: "↗";
+    content: " ↗";
     color: #aaaaaa;
-  }
-  &.internal-link:after,
-  &.footnote:after,
-  &.reversefootnote:after {
-    content: "";
   }
 }
 

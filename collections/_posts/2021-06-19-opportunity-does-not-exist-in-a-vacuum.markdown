@@ -19,7 +19,7 @@ First, what did I mean by this?
 
 I think many people are attracted to the idea of solitary success. They want to lock themselves up in their [Menlo Lab](https://en.wikipedia.org/wiki/Menlo_Park,_New_Jersey) and come out with an invention that will change the world.
 
-Perhaps they won't tell anyone where they are or what they are working on due to a [fear of failure](https://www.connorjrobbins.com/blog/fear-of-failure){: .internal-link} or an ego-driven desire to shock and awe people once they've finished.
+Perhaps they won't tell anyone where they are or what they are working on due to a [fear of failure](https://www.connorjrobbins.com/blog/fear-of-failure) or an ego-driven desire to shock and awe people once they've finished.
 
 I'd argue this is the wrong approach. While solitary deep work is necessary, it is not sufficient. And, while there is nothing inherently wrong with leading a solitary existence, **extraordinary things rarely happen to those who work this way.**
 

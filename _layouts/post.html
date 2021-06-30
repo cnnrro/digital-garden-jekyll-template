@@ -32,7 +32,7 @@ layout: default
     {% continue %}
     {% endif %}
     <div class="list-entry">
-      <div><a class="internal-link" href="{{ post.url }}">{{ post.title }}</a> <span
+      <div><a href="{{ post.url }}">{{ post.title }}</a> <span
           class="faded">({{ post.date | date: "%Y-%m-%d" }})</span></div>
       <div>{{ post.excerpt }}</div>
     </div>
@@ -40,8 +40,7 @@ layout: default
   </div>
 
   <footer>
-    <div>Blog feed available as <a target="_blank" class="internal-link" href="/rss.xml">RSS</a> or <a target="_blank"
-        class="internal-link" href="/feed.json">JSON</a> feeds.</div>
+    <div>Blog feed available as <a target="_blank" href="/rss.xml">RSS</a> or <a target="_blank" href="/feed.json">JSON</a> feeds.</div>
     <div class="social">
       I'm also on
       <a title='Twitter' target="_blank" rel="noreferrer" href="https://twitter.com/connorjrobbins">Twitter</a>.

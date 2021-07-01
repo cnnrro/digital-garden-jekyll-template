@@ -20,7 +20,14 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
 
-      - name: Build and deploy
+      - name: Build
         uses: helaili/jekyll-action@v2
         with:
           token: ${{ secrets.GH_PAGES }}
+          build_only: true
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages
+          folder: build

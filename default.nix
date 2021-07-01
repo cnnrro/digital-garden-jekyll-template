@@ -6,18 +6,6 @@ in stdenv.mkDerivation {
 	name = "env";
 	buildInputs = [
 		ruby
-		# bashInteractive
-		# devd
-		# jq
-		# moreutils
-		# yq-go
-		# pandoc
-		# gnumake
-		# entr
-		# woff2
-		# # gomplate
-		# image_optim
-		# unstable.minify
-		# sass sassc # sass compiler
+		bundler
 	];
 }

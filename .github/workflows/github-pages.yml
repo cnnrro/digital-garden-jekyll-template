@@ -26,8 +26,27 @@ jobs:
           token: ${{ secrets.GH_PAGES }}
           build_only: true
 
+      - name: Install Minify
+        run: |
+          sudo apt-get update
+          sudo apt-get install minify
+
+      - name: Minify HTML
+        run: |
+          mkdir -p build_min
+          minify --type=html --recursive --output "./build_min/" --match=\.html "./build/" --verbose
+
+      - name: Minify CSS
+        run: |
+          mkdir -p build_min
+          minify --type=css --recursive --output "./build_min/" --match=\.css "./build/" --verbose
+
+      - name: Copy non-minifiable files
+        run: |
+          rsync --recursive ./build/ ./build_min --ignore-existing --verbose
+
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
           branch: gh-pages
-          folder: build
+          folder: build_min

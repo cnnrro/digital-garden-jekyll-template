@@ -21,6 +21,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-last-modified-at
   - jekyll-target-blank
+  - jekyll-sitemap
 
 target-blank:
   # add_css_classes: ext-link
@@ -63,3 +64,7 @@ defaults:
       type: "notes"
     values:
       layout: "note"
+  - scope:
+      path: "_favicons/**/*"
+    values:
+      sitemap: false

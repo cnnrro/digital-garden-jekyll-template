@@ -29,16 +29,6 @@ target-blank:
   noreferrer: false
   rel: external
 
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
-  ignore:
-    envs: [local]
-  blanklines: false
-  profile: false
-  startings: [html, head, body]
-
 sass:
   sass_dir:          _sass
   style:            :compressed

@@ -219,3 +219,24 @@ tbody tr:nth-child(even) button {
 tbody tr:nth-child(even) button:hover {
   background-color: #fff;
 }
+
+.anchor {
+	visibility: hidden;
+	text-decoration: none;
+	border-bottom: 0;
+	margin-left: 0.7rem;
+	// font-size: 1.5rem;
+}
+
+.anchor:hover, .anchor:focus {
+	background: none !important;
+}
+
+h1:hover .anchor,
+h2:hover .anchor,
+h3:hover .anchor,
+h4:hover .anchor,
+h5:hover .anchor,
+h6:hover .anchor {
+	visibility: visible;
+}

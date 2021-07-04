@@ -15,7 +15,7 @@ layout: default
 <div class="post-wrapper">
   <article class="post">
     <div class="post-heading">
-      <h1 class="post-title">{{ page.title }}</h1>
+      <h1 class="post-title" id="post-title">{{ page.title }}<a href="#post-title" class="anchor" aria-hidden="true">&sect;</a></h1>
       <time datetime="{{ page.date | date_to_xmlschema }}" class="faded">{% if page.type != 'pages' %}
         {{ page.date | date: "%B %-d, %Y" }}
         {% endif %}

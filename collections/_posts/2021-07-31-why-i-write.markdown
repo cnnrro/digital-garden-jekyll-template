@@ -3,7 +3,7 @@ title: Why I Write
 slug: why-I-write
 date: 2021-07-31
 excerpt: |
-  I believe that to live an intentional life you must be self reflective.
+  I believe that to live an intentional life, you must be self-reflective.
 
   And I find writing to be the deepest form of reflection possible.
 ---

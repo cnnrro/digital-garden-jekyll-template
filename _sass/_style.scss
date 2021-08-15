@@ -176,9 +176,14 @@ nav > ul > li > a {
   margin: 3em 0 2em;
 }
 
-.post > p:last-of-type {
+.post {
   padding-bottom: 1em;
   border-bottom: 5px solid #f0f0f0;
+}
+
+.footnotes {
+  border-top: 1px solid $color-border;
+  margin: 1.5em 0;
 }
 
 table {
